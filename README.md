@@ -17,24 +17,25 @@ In a different way and there are also new enemies, the function randomly determi
 By another function EnemyDraw.
 Interesting things about this function:
 
-- The function is organized and divided according to the amount of stages in the game so that it produces only the required enemies and does not activate
+1. The function is organized and divided according to the amount of stages in the game so that it produces only the required enemies and does not activate
 Loops and functions not required.
-- For each stage there is a different logic for creating enemies at random in order to diversify the game.
+2.For each stage there is a different logic for creating enemies at random in order to diversify the game.
 For example: at each stage the location of the enemy will be determined by different and random logic.
-- HeroMovement - controls the movement of the main player and also determines when to advance to the next stage.
-- Shoot - The function produces and draws all the shots that occur in the game.
+- **HeroMovement** - controls the movement of the main player and also determines when to advance to the next stage.
+- **Shoot** - The function produces and draws all the shots that occur in the game.
 Interesting things about this function:
 
-- In order for the enemies not to just shoot non-stop, I was able to set them a certain range around the player in which only they are
+1. In order for the enemies not to just shoot non-stop, I was able to set them a certain range around the player in which only they are
 Shot, meaning only when the enemy is in front of the player up to a certain delta, he fired.
-- Because a lot of shots are fired during the game, so as not to exceed the lineup for the number of shots fired,
+2. Because a lot of shots are fired during the game, so as not to exceed the lineup for the number of shots fired,
 When enemy / player firing crosses the canvas boundaries, the amount of firing is subtracted and ostensibly simulates "reuse"
 In an array.
 **Hit** - The function is used to check all the vulnerabilities that occurred in the game between the player / shooting / enemy or the bonuses and downloads or
 Raises life and score as needed.
 Win / Loose - Functions that are used for the conditions of stopping the game and deciding the win / loss, in addition at the end of the game will appear
 Screen of victory or loss accordingly.
-Additional options:
+
+## Additional options
 
 - There are bonuses that appear in a random position on the canvas after a step transition, there are 3 bonus options:
 Life / Ammunition / Score
