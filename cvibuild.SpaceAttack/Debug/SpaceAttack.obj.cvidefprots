@@ -1,0 +1,140 @@
+[Key_DownFunc]
+Class="Function"
+Prototype="int Key_DownFunc(int panel, int message, unsigned int *wParam, unsigned int *lParam, void *callbackData);"
+
+[Key_UpFunc]
+Class="Function"
+Prototype="int Key_UpFunc(int panel, int message, unsigned int *wParam, unsigned int *lParam, void *callbackData);"
+
+[Connect_To_Windows_Events]
+Class="Function"
+Prototype="void Connect_To_Windows_Events();"
+
+[LoadBoard]
+Class="Function"
+Prototype="void LoadBoard();"
+
+[BoardUpdate]
+Class="Function"
+Prototype="void BoardUpdate();"
+
+[initiate]
+Class="Function"
+Prototype="void initiate();"
+
+[terminate]
+Class="Function"
+Prototype="void terminate();"
+
+[reset]
+Class="Function"
+Prototype="void reset();"
+
+[Win]
+Class="Function"
+Prototype="void Win();"
+
+[Loose]
+Class="Function"
+Prototype="void Loose();"
+
+[EnemyIntersec]
+Class="Function"
+Prototype="double EnemyIntersec(OBJECT Enemy1, OBJECT Enemy2);"
+
+[HeroMovement]
+Class="Function"
+Prototype="void HeroMovement();"
+
+[Hit]
+Class="Function"
+Prototype="void Hit();"
+
+[EnemyCreation]
+Class="Function"
+Prototype="void EnemyCreation();"
+
+[EnemyDraw]
+Class="Function"
+Prototype="void EnemyDraw();"
+
+[Shoot]
+Class="Function"
+Prototype="void Shoot();"
+
+[BonusesCreation]
+Class="Function"
+Prototype="void BonusesCreation(int i);"
+
+[BonusesDraw]
+Class="Function"
+Prototype="void BonusesDraw(int j);"
+
+[Draw]
+Class="Function"
+Prototype="void Draw();"
+
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[QuitGamePanel]
+Class="Function"
+Prototype="int QuitGamePanel(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Tick]
+Class="Function"
+Prototype="int Tick(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[StartGame]
+Class="Function"
+Prototype="int StartGame(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[QuitMenuPanel]
+Class="Function"
+Prototype="int QuitMenuPanel(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[QuitGame]
+Class="Function"
+Prototype="int QuitGame(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DemoVid]
+Class="Function"
+Prototype="void DemoVid(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[HelpDoc]
+Class="Function"
+Prototype="void HelpDoc(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[ResetGame]
+Class="Function"
+Prototype="int ResetGame(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PAUSE]
+Class="Function"
+Prototype="int PAUSE(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[About]
+Class="Function"
+Prototype="int About(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Board]
+Class="Function"
+Prototype="int Board(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[QuitTopChart]
+Class="Function"
+Prototype="int QuitTopChart(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[QuitAbout]
+Class="Function"
+Prototype="int QuitAbout(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SoundControl]
+Class="Function"
+Prototype="int SoundControl(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SoundControlMain]
+Class="Function"
+Prototype="int SoundControlMain(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

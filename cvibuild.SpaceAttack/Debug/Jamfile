@@ -1,0 +1,43 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2017\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2017\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "SpaceAttack.c" = "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2" ;
+Object "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\SpaceAttack.obj" : "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\SpaceAttack.c" ;
+FILENUM on "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\SpaceAttack.obj" = 1 ;
+DEFPROTS on "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\SpaceAttack.obj" = "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\SpaceAttack.obj.cvidefprots" ;
+OUTFILE on "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\SpaceAttack.obj" = "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\SpaceAttack.obj.out" ;
+PrjObjects += "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\SpaceAttack.obj" ;
+Object "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\resources.res" : "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\resources.in.rc" ;
+Depends "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\resources.res" : "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\manifest.xml" ;
+MainFromObjects "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\SpaceAttack.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\SpaceAttack.exe" : "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\link_options.txt" ;
+Depends "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\SpaceAttack.exe" : "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\resources.res" ;
+Depends all : "d:\\Afeka\\Third Year\\Semester A\\CVI Prog\\Final Project v2\\cvibuild.SpaceAttack\\Debug\\SpaceAttack.exe" ;
