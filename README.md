@@ -1,7 +1,7 @@
 # SpaceAttack
 
 ## Intro
-Playing in the familiar Space Arcade style, the player must defeat enemies and advance in stages until victory.
+Play in the familiar Space Arcade Game style, the player must defeat enemies and advance in stages until victory.
 ## Game instructions
 After selecting a player name and pressing the "Start" button on the main panel, the game panel will appear.
 - The movement of the player is performed by the arrows keys
@@ -49,3 +49,7 @@ Win / Loose - Functions that are used for the conditions of stopping the game an
 - Music - There is a sound for the player's shooting / bonuses / win / loss and music in the background, can be turned on or off.
 
 - The About and Help panels are called from the Main Panel menu.
+
+
+![Screenshot](intro.png)
+![Screenshot](game.png)
