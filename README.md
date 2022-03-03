@@ -2,6 +2,8 @@
 
 ## Intro
 Play in the familiar Space Arcade Game style, the player must defeat enemies and advance in stages until victory.
+
+This project created during my "Embedded systems" course during my BSc studies.
 ## Game instructions
 After selecting a player name and pressing the "Start" button on the main panel, the game panel will appear.
 - The movement of the player is performed by the arrows keys
