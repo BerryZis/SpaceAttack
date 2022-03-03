@@ -51,5 +51,5 @@ Win / Loose - Functions that are used for the conditions of stopping the game an
 - The About and Help panels are called from the Main Panel menu.
 
 
-![Screenshot](intro.png)
+![Screenshot](start.png)
 ![Screenshot](game.png)
